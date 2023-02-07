@@ -1,4 +1,4 @@
-def func(n, cache={0:1, 1:1}):
+def func(n, cache={0:0, 1:1}):
     if n in cache:
         return cache[n]
     else:
