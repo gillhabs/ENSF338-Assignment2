@@ -27,10 +27,9 @@ time = []
 
 for i in range(len(content)): # test on all inputs of given json file
     time_list = []
-    n = len(content[i])
 
     for k in range(5):  # perform 5 trials
-        time_list.append(timeit.timeit(lambda:func(content), number = 1))
+        time_list.append(timeit.timeit(lambda:func(content[i]), number = 1))
     
     time.append(time_list)
 
