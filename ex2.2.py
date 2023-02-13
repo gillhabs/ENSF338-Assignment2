@@ -52,7 +52,7 @@ min_func = [min(x) for x in time]
 
 # plot results
 plt.plot(min_func)
-plt.suptitle("func performance")
+plt.suptitle("func1 performance")
 plt.ylabel("Time in s")
 plt.xlabel("Input size n")
 plt.show()
