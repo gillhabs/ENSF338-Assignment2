@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 with open("ex2.json", "r") as inF:
     content = json.load(inF)
 
-#optimized functions
+#optimized functions (insertion sort)
 sys.setrecursionlimit(20000)
 
 def func(array):
